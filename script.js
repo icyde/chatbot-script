@@ -11,16 +11,19 @@ iframe.src = "https://chat-bot-fawn-one.vercel.app/";
 document.body.appendChild(iframe);
 
 // iframe width:415px h:700px
-let showModal = false
-const button = document.getElementById("chatbot-button");
-button.addEventListener("click", ()=>{
-  if (showModal){
-    iframe.style.width = "100px"
-    iframe.style.height = "100px"
-  }
-  else {
-    iframe.style.width = "415px"
-    iframe.style.height = "700px"
-  }
+iframe.addEventListener('load', handleLoad,true)
 
-})
+const handleLoad = () =>{
+  let showModal = false;
+  const button = document.getElementById("chatbot-button");
+  button.addEventListener("click", () => {
+    if (showModal) {
+      iframe.style.width = "100px";
+      iframe.style.height = "100px";
+    } else {
+      iframe.style.width = "415px";
+      iframe.style.height = "700px";
+    }
+  });
+}
+
