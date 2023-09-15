@@ -11,8 +11,6 @@ iframe.src = "https://chat-bot-fawn-one.vercel.app/";
 document.body.appendChild(iframe);
 
 // iframe width:415px h:700px
-iframe.addEventListener('load', handleLoad,true)
-
 const handleLoad = () =>{
   let showModal = false;
   const button = document.getElementById("chatbot-button");
@@ -26,4 +24,6 @@ const handleLoad = () =>{
     }
   });
 }
+iframe.addEventListener("load", handleLoad, true);
+
 
