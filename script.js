@@ -14,13 +14,14 @@ document.body.appendChild(iframe);
 const handleLoad = () =>{
   let showModal = false;
   const button = document.getElementById("chatbot-button");
+  const iframe2 = document.getElementById("chatbot-iframe");
   button.addEventListener("click", () => {
     if (showModal) {
-      iframe.style.width = "100px";
-      iframe.style.height = "100px";
+      iframe2.style.width = "100px";
+      iframe2.style.height = "100px";
     } else {
-      iframe.style.width = "415px";
-      iframe.style.height = "700px";
+      iframe2.style.width = "415px";
+      iframe2.style.height = "700px";
     }
   });
 }
