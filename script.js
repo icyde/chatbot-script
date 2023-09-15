@@ -1,25 +1,3 @@
-// const iframe = document.createElement("iframe");
-// iframe.style.position = "fixed";
-// iframe.setAttribute("id", "chatbot-iframe")
-// iframe.style.zIndex = "999"
-// iframe.style.right = "10px"
-// iframe.style.bottom = "50px"
-// iframe.style.width = "100px"
-// iframe.style.height = "100px"
-// //iframe.style.border = "none"
-// iframe.src = "https://chat-bot-fawn-one.vercel.app/";
-// document.body.appendChild(iframe);
-
-// window.addEventListener("message", (evt) => {
-//   if (evt.origin !== "https://chat-bot-fawn-one.vercel.app") {
-//     return;
-//   }
-
-//   if (evt.data === "show") {
-//     api.hide();
-//   }
-// });
-
 (() => {
   const script = document.currentScript;
 
