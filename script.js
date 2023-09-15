@@ -42,8 +42,8 @@
       },
 
       show: () => {
-        iframe.style.height= "715px";
-        iframe.style.width = "425px"
+        iframe.style.height= "730px";
+        iframe.style.width = "440px"
       },
 
       hide: () => {
