@@ -64,13 +64,13 @@
       },
 
       show: () => {
-        widget.style.height= "700px";
-        widget.style.width = "415px"
+        iframe.style.height= "700px";
+        iframe.style.width = "415px"
       },
 
       hide: () => {
-        widget.style.height = "100px";
-        widget.style.width = "100px";
+        iframe.style.height = "100px";
+        iframe.style.width = "100px";
       },
 
       toggle: () => {
