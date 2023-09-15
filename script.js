@@ -6,5 +6,5 @@ iframe.style.bottom = "50px"
 iframe.style.width = "1000px"
 iframe.style.height = "1000px"
 iframe.style.border = "none"
-iframe.src = "https://chat-hq8nbcnvb-icyde.vercel.app/";
+iframe.src = "https://chat-bot-fawn-one.vercel.app/";
 document.body.appendChild(iframe);
